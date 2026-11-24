@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root { --accent: #4f46e5; --accent-dark: #3730a3; }
+[data-accent='emerald'] { --accent: #059669; --accent-dark: #065f46; }
+[data-accent='rose'] { --accent: #e11d48; --accent-dark: #9f1239; }
+[data-accent='amber'] { --accent: #d97706; --accent-dark: #92400e; }
+
+.dark .toastui-editor-contents,
+.dark .toastui-editor-contents p,
+.dark .toastui-editor-contents li,
+.dark .toastui-editor-contents h1,
+.dark .toastui-editor-contents h2,
+.dark .toastui-editor-contents h3 { color: #e2e8f0; }
