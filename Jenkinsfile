@@ -100,7 +100,7 @@ pipeline {
         // ============================================================
         stage('Build Application') {
             environment {
-                VITE_API_URL = 'https://ifs24025-pabwe2026-sk-p9-be-golang-gin.s1if.cloud'
+                VITE_API_URL = 'https://ifs24029-pabwe2026-sk-p9-be-golang-gin.s1if.cloud'
             }
             agent {
                 docker {
